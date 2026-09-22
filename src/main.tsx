@@ -19,8 +19,6 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion";
-  // CSS is loaded by the bundler; TypeScript does not have declarations for CSS files.
-  // @ts-expect-error -- side-effect CSS import is handled by Vite.
   import "./styles.css";
 
 const menu = {
